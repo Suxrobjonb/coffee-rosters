@@ -1,0 +1,113 @@
+@media only screen and (max-width: 679px) {
+   
+   .site__hamburger {
+      display: block;
+   }
+   .header__list {
+      display: none;
+   }
+
+   .site__midle-list-item {
+      display: inline-block;
+   }
+   
+}
+@media only screen and (max-width: 679px){
+   .others {
+      width: 689px;
+      background-image: url("../images/cofe-img-mobile.jpg");
+      background-repeat: no-repeat;
+      border-radius: 10px;
+   }
+   .hero__title {
+      margin-bottom: 24px;
+      width: 329px;
+      font-size: 48px;
+   }
+   .hero-text {
+      margin-bottom: 40px;
+      width: 398px;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+   }
+   .site__midle-list {
+      display: block;
+   }
+
+   .about__coffee {
+      display: inline-block;
+   }
+}
+@media only screen and (max-width:1084px){
+   .hero{
+      padding: 104px 10px 100px 58px;
+      background-image: url("../images/tablet_hero-bg.png");
+   }
+   .hero__title{ 
+      margin-bottom: 24px;
+      font-size: 48px;
+      line-height: 48px;
+   }
+   .hero__text{
+      margin-bottom: 40px;
+      font-size: 15px;
+      line-height: 25px;
+   }
+   .hero__link {
+      font-size: 18px;
+      line-height: 25px;
+   }
+}
+@media only screen and (max-width:762px){
+   .hero__content{
+      width: 100%;
+      
+   }
+   .hero__text-wrapper{
+      width: 100%;
+   }
+}
+@media only screen and (max-width:631px){
+   .hero{
+      padding: 100px 24px;
+      background-image: url("../images/hero__mobile.png");
+      background-position: center;
+   }
+   .hero__content{
+      text-align: center;
+      width: 100%;
+   }
+   .hero__title{
+      width: 100%;
+      font-size: 40px;
+      line-height: 40px;
+   }
+   .hero__text{
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .cofe__footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .header__section-box {
+      text-align: center;
+   }
+
+   .coffe__man {
+      display: inline-block;
+   }
+
+}
+@media only screen and (max-width:989px) {
+   .site__about-coffe {
+      display: block;
+   }
+   
+}

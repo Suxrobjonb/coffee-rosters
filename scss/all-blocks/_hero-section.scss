@@ -43,7 +43,15 @@
    color: #FEFCF7;
    background: #0E8784;
    border-radius: 6px;
+   transition: 0.3s;
 }
+
+.hero__link:hover {
+   background: #66D2CF;
+   border-radius: 6px;
+   color: #FEFCF7;
+}
+
 
 @media only screen and (max-width:1084px){
    .hero{
@@ -53,7 +61,7 @@
    .hero__title{ 
       margin-bottom: 24px;
       font-size: 48px;
-line-height: 48px;
+      line-height: 48px;
    }
    .hero__text{
       margin-bottom: 40px;
@@ -62,13 +70,13 @@ line-height: 48px;
    }
    .hero__link {
       font-size: 18px;
-line-height: 25px;
+      line-height: 25px;
    }
 }
 @media only screen and (max-width:762px){
    .hero__content{
       width: 100%;
-
+      
    }
    .hero__text-wrapper{
       width: 100%;
